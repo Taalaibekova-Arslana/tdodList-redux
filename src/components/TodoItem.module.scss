@@ -1,0 +1,23 @@
+.cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+	.card {
+		width: 850px;
+		height: 200px;
+		background-color: #8b8bee76;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		img {
+			object-fit: cover;
+			object-position: center;
+			width: 100px;
+			height: 130px;
+			border-radius: 20px;
+		}
+	}
+}
